@@ -34,5 +34,5 @@ class CoinChanger
 
 end
 
-a = CoinChanger.new
-a.run
+#a = CoinChanger.new
+#a.run
