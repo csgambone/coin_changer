@@ -1,5 +1,3 @@
-puts "Input change to be returned: "
-
 def calculate(change)
 	#stuff
 	result = []
@@ -15,8 +13,9 @@ def calculate(change)
 	return result
 end
 
+puts "Input change to be returned: "
+
 input = gets.chomp
 input = input.to_i
 output = calculate(input)
 puts "The correct change is #{output[0]} dollars, #{output[1]} quarters, #{output[2]} dimes, #{output[3]} nickels, and #{output[4]} pennies."
-
