@@ -2,7 +2,6 @@
 class CoinChanger
 
 	def calculate(change)
-		#stuff
 		result = []
 		result[0]=(change/100).floor
 		change=change%100
@@ -34,5 +33,3 @@ class CoinChanger
 
 end
 
-#a = CoinChanger.new
-#a.run
